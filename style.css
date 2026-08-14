@@ -162,7 +162,7 @@ section{
     font-weight: 500;
     text-wrap: nowrap;
     transition: .2s ease-in-out;
-    
+
 }
 
 .btn:hover{
@@ -171,24 +171,24 @@ section{
 }
 .profile-links {
     display: flex;
-    gap: 3rem; /* Adjust this value to increase/decrease space between links */
+    gap: 3rem; 
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
 }
 
-/* Styling the text links to match the reference image */
+
 .text-link {
     color: white;
     font-size: 1.5rem;
-    font-weight: 300; /* Keeps the text thin */
-    text-decoration: none; /* Removes default browser underline */
-    padding-bottom: 0.5rem; /* Creates space between the text and the line */
-    border-bottom: 1px solid white; /* Adds the crisp white line */
+    font-weight: 300; 
+    text-decoration: none; 
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white; 
     transition: 0.3s ease-in-out;
 }
 
-/* Optional hover effect */
+
 .text-link:hover {
     color: rgb(209, 202, 202); 
     border-bottom-color: rgb(209, 202, 202);
