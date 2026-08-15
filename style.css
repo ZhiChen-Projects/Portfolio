@@ -36,7 +36,7 @@ header{
 }
 .logo:hover{
     transform: scale(1.1);
-    background-color: linear-gradient(to right, rgb(0,157,255), rgb(255,0,255));
+    background-color: linear-gradient(to right, rgb(255, 255, 255), rgb(0, 0, 0));
 }
 .nav-links{
     display: flex;
@@ -58,7 +58,7 @@ li a::before{
     top: 25px;  
     border-radius: lrem;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to right, rgb(0,157,255), rgb(255,0,255));
+    background: linear-gradient(to right, #b267f0,#B9FAF8);
 
 }
 
@@ -101,7 +101,7 @@ section{
     align-items: center;
     justify-content: center;
 
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/nyc_brooklyn_bridge.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/nyc_brooklyn_bridge.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -125,6 +125,7 @@ section{
     filter: brightness(150%);
 }
 
+
 .info-box{
     display: flex;
     flex-direction: column;
@@ -147,7 +148,7 @@ section{
 }
 
 .info-box span{
-    background: linear-gradient(to right, rgb(0,157,255), rgb(255,0,255));
+    background: linear-gradient(to right, #b267f0,#B9FAF8);
     background-clip: text;
     color: transparent;
     font-size: 2rem;
@@ -223,11 +224,15 @@ section{
     color: white
 }
 .experience{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/nyc_brooklyn_bridge.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/nyc_brooklyn_bridge.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .experience-info{
@@ -252,7 +257,7 @@ section{
 }
 
 .grid-card{
-    border: 2px solid #999999;
+    border: 2px solid #d4d4d4;
     border-radius: 3rem;
     padding: 3rem;
     display: flex;
@@ -263,7 +268,7 @@ section{
     transform: .2s ease-in-out;
     flex: 1;
     color: #e0e0e0;
-    background-color: #1e1e1e;
+    background-color: #373837;
 }
 
 .grid-card:hover{
@@ -280,12 +285,12 @@ section{
 .grid-card span{
     font-size: 1.5rem;
     font-weight: 500;
-    background: linear-gradient(to right, rgb(0,157,255), rgb(255,0,255));
+    background: linear-gradient(to right, rgb(0,157,255), #B9FAF8);
     background-clip: text;
     color:transparent;
 }
 .projects{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/arizona.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/arizona.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -341,7 +346,7 @@ section{
     font-weight: 500;
 }
 .contact{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/arizona.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/arizona.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
