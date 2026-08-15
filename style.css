@@ -298,12 +298,16 @@ section{
 }
 
 .projects-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 3rem;
+    align-items: stretch; 
 }
 
 .projects-cards{
+    flex: 1 1 350px; 
+    max-width: 450px;
     padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
@@ -326,7 +330,9 @@ section{
 }
 
 .projects-cards img{
-    width: 20vw;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
     border-radius: 1rem;
 }
 
@@ -352,6 +358,19 @@ section{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.input{
+    position: relative;
+}
+
+.input i {
+    position: absolute;
+    font-size: 1.5rem; 
+    top: 50%;
+    left: 20px; 
+    transform: translateY(-50%); 
+    color: white; 
+}
+
 .input-box{
     display: flex;
     flex-direction: column;
@@ -368,24 +387,42 @@ section{
     border: 2px solid black;
     padding: 2rem 8rem;
     font-size: 3rem;
+
+    position: relative;
+    border-radius: 3rem;
+    border: 2px solid white; 
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 100%;
+    max-width: 600px;
 }
 
 .input-box input::placeholder{
-    font-size: 3rem;
+    font-size: 1.75rem;
 }
 
-.input{
+.input-box textarea {
     position: relative;
+    border-radius: 3rem;
+    border: 2px solid white; 
+    padding: 1.5rem 3rem; 
+    font-size: 1.5rem; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white; 
+    width: 100%;
+    max-width: 600px;
+    border-radius: 1.5rem; 
+    height: 150px;
+    resize: none; 
+    font-family: 'Poppins', sans-serif;
 }
 
-.input i{
-    position: absolute;
-    font-size: 4rem;
-    top :50%;
-    left:10px;
-    transform: translate(50%,-50%);
+button.btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
 }
-
 
 @media(max-width:1280px){
     header{
@@ -421,6 +458,17 @@ section{
     header .visit-btn{
         display: none;
     }
+    .about{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/nyc_brooklyn_bridge.jpg');
+    }
+    .about img{
+        width: 200px;
+        height: 200px;
+        zoom: 100%;
+    }
     .input-box input{
         padding: 1rem 2rem;
         font-size: 1.8rem;
@@ -437,6 +485,15 @@ section{
     .experience-info img{
         width: 70vw;
     } 
+    .experience{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('assets/nyc_brooklyn_bridge.jpg');
+    }
+    .projects{
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/arizona.jpg');
+    }
+    .contact{
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('assets/arizona.jpg');
+    }
 }
 
 @media(max-width: 600px){
