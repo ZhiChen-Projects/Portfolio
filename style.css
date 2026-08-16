@@ -238,7 +238,7 @@ section{
     align-items: stretch;
     justify-content: center;
     gap: 5rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
 }
 
 /* used for image */
@@ -257,7 +257,7 @@ section{
 .grid-card{
     border: 2px solid #d4d4d4;
     border-radius: 3rem;
-    padding: 1.5rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -281,7 +281,7 @@ section{
 }
 
 .grid-card span{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     background: linear-gradient(to right, rgb(0,157,255), #B9FAF8);
     background-clip: text;
@@ -570,6 +570,17 @@ button.btn {
     .about-container img{
         width: 80vw;
     }
+    .experience-info {
+        grid-template-columns: 1fr; 
+        gap: 2rem;
+    }
+    .grid-card {
+        padding: 1.5rem; 
+        border-radius: 2rem; 
+    }
+    .grid-card span {
+        font-size: 1.2rem; 
+    }
     .input-box input{
         padding: 0.5rem 3rem;
         width: 80%;
@@ -577,8 +588,5 @@ button.btn {
     }
     .input-box input::placeholder{
         font-size: 1.5rem;
-    }
-    footer ul{
-        gap: 1rem;
     }
 }
