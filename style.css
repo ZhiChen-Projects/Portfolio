@@ -311,9 +311,9 @@ section{
     font-size: 1rem;
     line-height: 1.5;
     color: #e0e0e0; 
-    display: list-item;
+    display: list-item !important;
     margin-bottom: 0.2rem;
-    list-style-type: disc;
+    list-style-type: disc !important;
 }
 
 .projects{
@@ -428,14 +428,8 @@ section{
 .input-box input{
     position: relative;
     border-radius: 3rem;
-    border: 2px solid black;
-    padding: 2rem 8rem;
-    font-size: 3rem;
-
-    position: relative;
-    border-radius: 3rem;
     border: 2px solid white; 
-    padding: 1.5rem 3rem;
+    padding: 1.5rem 3rem 1.5rem 4rem;
     font-size: 1.5rem; 
     background-color: rgba(0, 0, 0, 0.5); 
     color: white; 
