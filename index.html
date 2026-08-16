@@ -36,8 +36,9 @@
 
                 <div class="text">
                     <h1>ZHI CHEN</h1>
-                    <span class="subtitle">UNDERGRADUATE STUDENT AT NYU | ASPIRING SOFTWARE ENGINEER & ROBOTICS</span>
-                    <h3>Born in New York, but raised in Arizona. Invested in robotics at a young age, passionate about programming.</h3>
+                    <span class="subtitle"> UNDERGRADUATE STUDENT AT NYU | ASPIRING SOFTWARE ENGINEER & ROBOTICS</span>
+                    <h3>From Arizona back to my roots in New York, I'm a student who's been fascinated by robotics since a young age, bridging the gap 
+                        between software and physical hardware, and always eager to learn more.</h3>
                 </div>
 
                 <div class="profile-links">
@@ -54,34 +55,30 @@
 
         <div class="experience-info">
             <div class="grid-card">
-                <i class="fa-solid fa-robot"></i>
-                <span>Bipedal Robot Programmer and Researcher</span>
-                <h3>Jan 2025 - Present</h3>
-                <p>Initiate the integration of the first ever humanoid robot developed in a student environment, entirely student driven.
-                    Researched and implemented neural network and Proximal Policy Optimization, an reinforced learning algorithm, into STEP.
-                    Enhanced the robot's functionality through reinforced learning, specifically targeted at it's reward function for higher stability.
-                    Utilized Unitree's framework within NVIDIA IsaacGym and validate custom URDF design to ensure seamless integration.
-                    Participated in a weekly meeting to track our project's milestone and perform some deep sight of the progress and issues.</p>
+                <span> <i class="fa-solid fa-robot"></i> Bipedal Robot Programmer & Researcher</span>
+                <h4 class="company">NYU STEP</h4>
+                <h5 class="date">Jan 2024 - Present (2 years)</h5>
+                
+                <ul class="experience-bullets">
+                    <li>Initiated the integration of the first entirely student-driven humanoid robot developed in a university environment.</li>
+                    <li>Researched and implemented neural networks and Proximal Policy Optimization (PPO) reinforcement learning algorithms into the STEP platform.</li>
+                    <li>Enhanced robot stability and functionality by specifically targeting and refining the reinforcement learning reward function.</li>
+                    <li>Utilized Unitree's framework within NVIDIA IsaacGym and validated custom URDF designs to ensure seamless integration.</li>
+                </ul>
             </div>
-            <!-- <div class="grid-card">
-                <i class="fa-solid fa-robot"></i>
-                <span>Networking</span>
-                <h3>2 years</h1>
-                <p>Look forward to it</p>
-            </div>
+
             <div class="grid-card">
-                <i class="fa-solid fa-robot"></i>
-                <span>RDT</span>
-                <h3>2 years</h1>
-                <p>Look forward to it</p>
-            </div> -->
-            <div class="grid-card">
-                <i class="fa-solid fa-utensils"></i>
-                <span>Part Time Server and Host</span>
-                <h3>Sept 2020 - May 2022</h3>
-                <p>Welcomed customers and oversaw their well-being while implementing COVID-19 protocols, guaranteeing their comfort.
-                    Collaborated with staff members to ensure customer satisfaction by maintaining a neat environment for customers.
-                    Maintained a clean and well-organized section through disinfection of tables and chairs ensuring sanitary area for customers</p>
+                
+                <span><i class="fa-solid fa-utensils"></i> Part-Time Server and Host</span>
+                <h4 class="company">Lin's Grand Buffet</h4>
+                <h5 class="date">Sept 2020 - May 2022 (2 years)</h5>
+                
+                <ul class="experience-bullets">
+                    <li>Managed high-volume service during peak hours, prioritizing efficient seating, order accuracy, and rapid table turnover.</li>
+                    <li>Collaborated closely with front-of-house and kitchen staff to streamline communication and deliver a seamless dining experience.</li>
+                    <li>Resolved customer inquiries and accommodated special requests with a high degree of professionalism, patience, and hospitality.</li>
+                    <li>Maintained strict adherence to safety, sanitation, and COVID-19 protocols while keeping a fast-paced environment organized.</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -93,12 +90,17 @@
             <div class="projects-cards">
                 <img src= "assets/satellite_comparison.png" alt ="">
 
-                <h3>Landmark Comparison</h3>
+                <div class="project-text-box"> 
+                    <h3>Landmark Comparison</h3>
 
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    <p> 
+                        <strong>The Concept:</strong> A visual analysis tool designed to spread awareness about global climate change by documenting environmental shifts over time.<br><br>
+                        <strong>The Build:</strong> Integrated NASA's GIBS REST API to collect satellite data and utilized OpenCV to render an interactive comparison of the 
+                                                    landmark.<br><br>
+                        <strong>Tech Stack:</strong> Python, OpenCV, REST API, JSON
+                    </p>
+                </div>
+                
                 <div class="btn-group">
                     <a href="https://github.com/ZhiChen-Projects/Landscape_Comparison" target = "_blank" class="btn">GitHub Repo</a>
                 </div>
@@ -106,13 +108,15 @@
 
             <div class="projects-cards">
                 <img src= "assets/heart_disease_ML.png" alt ="">
+                <div class="project-text-box"> 
+                    <h3>Heart Disease Prediction</h3>
 
-                <h3>Heart Disease Prediction</h3>
-
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    <p>
+                        <strong>Objective:</strong> Developed a predictive machine learning pipeline to predict the possibility of heart disease in a patient. <br><br>
+                        <strong>Architecture:</strong> Engineered data preprocessing and feature transformations to optimize model accuracy.<br><br>
+                        <strong>Models:</strong> Trained, tuned, and evaluated algorithms including Support Vector Machines (SVM), Logistic Regression and Neural Network.
+                    </p>
+                </div>
                 <div class="btn-group">
                     <a href="https://github.com/ZhiChen-Projects/Machine-Learning-Project/blob/main/evaluation.ipynb" target = "_blank" class="btn">GitHub Repo</a>
                 </div>
@@ -120,13 +124,18 @@
 
             <div class="projects-cards">
                 <img src= "assets/tunepad.png" alt ="">
+                <div class="project-text-box"> 
+                    <h3>TunePad</h3>
 
-                <h3>TunePad</h3>
+                    <p>
+                        <strong>The Concept:</strong> Co-designed an assistive technology bass guitar to empower musicians with motor impairments. <br><br>
+                        <strong>The Build:</strong> Engineered the interactive hardware using an Arduino microcontroller, integrating force-sensitive resistors 
+                                                    and laser diodes to create a highly responsive instrument. Programmed specific musical notes to its corresponding combination 
+                                                    on the bass guitar.<br><br>
+                        <strong>Tech Stack:</strong> Arduino, C++, Hardware Sensors, Microcontrollers.
 
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    </p>
+                </div>
                 <div class="btn-group">
                     <a href="https://drive.google.com/drive/folders/1ekrrvYL1Ryxs7uPAWYqUUC9ClzzUV54A?usp=sharing" target = "_blank" class="btn">Google Drive</a>
                 </div>
@@ -134,13 +143,17 @@
 
             <div class="projects-cards">
                 <img src= "assets/League_Of_Trial.png" alt ="">
+                <div class="project-text-box"> 
+                    <h3>League of Trial</h3>
 
-                <h3>League of Trial</h3>
-
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    <p>
+                        <strong>The Concept:</strong> A dynamic action game focused on precise movement mechanics and engaging enemy encounters.<br><br>
+                        <strong>The Build:</strong> Engineered enemy AI's behaviors and smooth player movement systems. 
+                                                    Programmed accurate collision detection and managed complex animation states.
+                                                    Integrated custom shaders and animations to elevate the visual intensity of the game.<br><br>
+                        <strong>Tech Stack:</strong> C++, Raylib.
+                    </p>
+                </div>
                 <div class="btn-group">
                     <a href="https://github.com/ZhiChen-Projects/League-of-Trial" target = "_blank" class="btn">GitHub Repo</a>
                 </div>
@@ -148,13 +161,16 @@
 
             <div class="projects-cards">
                 <img src= "assets/space_creatures.png" alt ="">
+                <div class="project-text-box"> 
+                    <h3>Space Creatures</h3>
 
-                <h3>Space Creatures</h3>
-
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    <p>
+                        <strong>The Concept:</strong> A 2D sci-fi game featuring dynamic, interactive alien characters and environments.<br><br>
+                        <strong>The Build:</strong> Engineered custom NPC artificial intelligence, programming distinct entity behaviors including followers, wanderers, and lerpers. 
+                                                    Managed complex sprite sheet indexing and collision detection for multiple character assets for a clean gameplay.<br><br>
+                        <strong>Tech Stack:</strong> C++, Raylib.
+                    </p>
+                </div>
                 <div class="btn-group">
                     <a href="https://github.com/ZhiChen-Projects/Space-Creatures" target = "_blank" class="btn">GitHub Repo</a>
                 </div>
@@ -162,13 +178,16 @@
 
             <div class="projects-cards">
                 <img src= "assets/lunar_lander.png" alt ="">
+                <div class="project-text-box"> 
+                    <h3>Lunar Lander</h3>
 
-                <h3>Lunar Lander</h3>
-
-                <p>Engineered a visualization tool that analyzes the Earth's landscape, and documents the change over the past decades.
-                    Researched into NASA's Global Imagery Browse Services API and integrated it to fetch the images from their satellite.
-                    Implemented OpenCV to demonstrate the images in a split screen to get the visual changes over the timestamp.
-                    Utilized JSON File structure for a lightweight database to allow users to update the data according to their needs.</p>
+                    <p>
+                        <strong>The Concept:</strong> A 2D physics simulation and game engine built entirely from scratch inspired from the actual game Lunar Lander.<br><br>
+                        <strong>The Build:</strong> Implemented custom movement physics, fuel mechanics, and detailed sprite animations to create a responsive rendering loop 
+                                                    and engaging gameplay mechanics.<br><br>
+                        <strong>Tech Stack:</strong> C++, Raylib.
+                    </p>
+                </div>
                 <div class="btn-group">
                     <a href="https://github.com/ZhiChen-Projects/Lunar-Lander" target = "_blank" class="btn">GitHub Repo</a>
                 </div>

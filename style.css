@@ -125,7 +125,6 @@ section{
     filter: brightness(150%);
 }
 
-
 .info-box{
     display: flex;
     flex-direction: column;
@@ -183,7 +182,6 @@ section{
     margin-top: 1rem;
 }
 
-
 .text-link {
     color: white;
     font-size: 1.5rem;
@@ -193,7 +191,6 @@ section{
     border-bottom: 1px solid white; 
     transition: 0.3s ease-in-out;
 }
-
 
 .text-link:hover {
     color: rgb(209, 202, 202); 
@@ -223,6 +220,7 @@ section{
     margin-bottom: 3rem;
     color: white
 }
+
 .experience{
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/nyc_brooklyn_bridge.jpg');
     background-size: cover;
@@ -289,12 +287,42 @@ section{
     background-clip: text;
     color:transparent;
 }
+.grid-card .company {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.grid-card .date {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #a0a0a0; 
+    margin-bottom: .5rem;
+}
+
+
+.experience-bullets {
+    list-style-type: disc;
+    padding-left: 1.5rem; 
+}
+
+.experience-bullets li {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #e0e0e0; 
+    display: list-item;
+    margin-bottom: 0.2rem;
+    list-style-type: disc;
+}
+
 .projects{
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/arizona.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    border: 1px white;
 }
 
 .projects-grid{
@@ -321,6 +349,20 @@ section{
     transition: 0.3s ease-in-out;
     background-color: #1e1e1e;
     color: #e0e0e0;
+}
+
+.project-text-box{
+    border: 2px solid #444343;
+    border-radius: 1.5rem;
+    padding: 1.5rem 2rem;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.project-text-box h3{
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .projects-cards:hover{
@@ -351,6 +393,7 @@ section{
     font-size: 2rem;
     font-weight: 500;
 }
+
 .contact{
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('assets/arizona.jpg');
     background-size: cover;
@@ -358,6 +401,7 @@ section{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .input{
     position: relative;
 }
